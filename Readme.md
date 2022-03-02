@@ -13,7 +13,7 @@ As of version 2, requires you either have an environment that understands ES2016
 ## Usage
 
 ```js
-const filter= require('swearify'),
+const filter= require('swearify');
 
 console.log(filter.findAndFilter(
 'Lorem ipsum dolor fUck amet, consectetur xxx elit, sed do жопа tempor incididunt fuck ut sex et dolore magna aliqua, lorem دیوس dolor sit amet, consectetur بیناموس elit, sed do eiusmod tempor incididunt ut b*tch et dolore ковровщик aliqua 🖕', // your sentence to filter
