@@ -13,7 +13,7 @@ As of version 2, requires you either have an environment that understands ES2016
 ## Usage
 
 ```js
-const filter= require('swearify'),
+const filter= require('swearify');
 
 console.log(filter.findAndFilter(
 'Lorem ipsum dolor fUck amet, consectetur xxx elit, sed do жопа tempor incididunt fuck ut sex et dolore magna aliqua, lorem دیوس dolor sit amet, consectetur بیناموس elit, sed do eiusmod tempor incididunt ut b*tch et dolore ковровщик aliqua 🖕', // your sentence to filter
@@ -35,11 +35,6 @@ console.log(filter.findAndFilter(
 magna aliqua, lorem ▩▩▩▩ dolor sit amet, consectetur ▩▩▩▩▩▩▩ elit, sed do eiusmod tempor incididunt ut b\*▩▩▩▩▩ et dolore ▩▩▩▩▩▩▩▩▩ aliqua ▩▩',
 **allowed_words:** [ 'sex' ]
 }
-
-## EX Placeholders
-
-❏ ❐ ❑ ❒ ▀ ▁ ▂ ▃ ▄ ▅ ▆ ▇ ▉ ▊ ▋ █ ▌ ▐ ▍ ▎ ▏ ▕ ░ ▒ ▓ ▔ ▬ ▢ ▣ ▤ ▥ ▦ ▧ ▨ ▩ ▪ ▫ ▭
-▮ ▯ ☰ ☲ ☱ ☴ ☵ ☶ ☳ ☷ ▰ ▱ ◧ ◨ ◩ ◪ ◫ ∎ ■ □ ⊞ ⊟ ⊠ ⊡ ❘ ❙ ❚ 〓 ◊ ◈ ◇ ◆ ⎔ ⎚ ☖ ☗
 
 ## Supported Languages
 
@@ -75,7 +70,7 @@ magna aliqua, lorem ▩▩▩▩ dolor sit amet, consectetur ▩▩▩▩▩▩�
 | Lithuanian | lt   | <img height="40" width="50" src="https://flagicons.lipis.dev/flags/4x3/lt.svg" />     | 130          |
 | Latvian    | lv   | <img height="40" width="50" src="https://flagicons.lipis.dev/flags/4x3/lv.svg" />     | 136          |
 | Macedonian | mk   | <img height="40" width="50" src="https://flagicons.lipis.dev/flags/4x3/mk.svg" />     | 130          |
-| Malayalam  | ml   | <img height="40" width="50" src="https://sflagicons.lipis.dev/flags/4x3/in.svg" />    | 134          |
+| Malayalam  | ml   | <img height="40" width="50" src="https://flagicons.lipis.dev/flags/4x3/in.svg" />    | 134          |
 | Mongolian  | mn   | <img height="40" width="50" src="https://flagicons.lipis.dev/flags/4x3/mn.svg" />     | 140          |
 | Marathi    | mr   | <img height="40" width="50" src="https://flagicons.lipis.dev/flags/4x3/in.svg" />     | 136          |
 | Malay      | ms   | <img height="40" width="50" src="https://flagicons.lipis.dev/flags/4x3/bn.svg" />     | 137          |
