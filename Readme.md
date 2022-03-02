@@ -15,25 +15,35 @@ As of version 2, requires you either have an environment that understands ES2016
 ```js
 const filter= require('swearify');
 
-console.log(filter.findAndFilter(
-'Lorem ipsum dolor fUck amet, consectetur xxx elit, sed do жопа tempor incididunt fuck ut sex et dolore magna aliqua, lorem دیوس dolor sit amet, consectetur بیناموس elit, sed do eiusmod tempor incididunt ut b*tch et dolore ковровщик aliqua 🖕', // your sentence to filter
-'▩', // placeholder
-['en',  'fa',  'ru'], // filter in which languages
-['sex'], // allowed swears
-[], // add your own words
-))
+const result = filter.findAndFilter (
+'Lorem ipsum dolor fUck amet, consectetur xxx elit, sed do жопа tempor incididunt fuck ut sex et 
+dolore magna aliqua, lorem دیوس dolor sit amet, consectetur بیناموس elit, sed do eiusmod tempor incididunt
+ut b*tch et dolore ковровщик aliqua 🖕',                   // your sentence to filter
+'▩',                                                      // placeholder
+['en',  'fa',  'ru'],                                     // filter in which languages
+['sex'],                                                  // allowed swears
+[],                                                       // add your own words
+);
+
+console.log(result);
 ```
 
 ## Output
 
 {
-**found:** true,
+
+**found**: true,
+
 **selected_languages:** [ 'en', 'fa', 'ru' ],
+
 **bad_words:** [ 'ковровщик', 'بیناموس', 'b*tch', 'fuck', 'دیوس', 'жопа', 'sex', 'xxx', 'xx', '🖕'],
+
 **filtered_sentense:**
 'Lorem ipsum dolor ▩▩▩▩ amet, consectetur ▩▩▩ elit, sed do ▩▩▩▩ tempor incididunt ▩▩▩▩ ut <ins>sex</ins> et dolore
 magna aliqua, lorem ▩▩▩▩ dolor sit amet, consectetur ▩▩▩▩▩▩▩ elit, sed do eiusmod tempor incididunt ut b\*▩▩▩▩▩ et dolore ▩▩▩▩▩▩▩▩▩ aliqua ▩▩',
+
 **allowed_words:** [ 'sex' ]
+
 }
 
 ## Supported Languages
