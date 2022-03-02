@@ -1,6 +1,6 @@
 ## Swearify
 
-Complete swear filter package which support most languages and more than **1000 words** .
+Complete swear filter package which support most languages and more than **10000 words** .
 
 ## Requirements
 
