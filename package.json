@@ -1,0 +1,28 @@
+{
+  "name": "swearify",
+  "version": "1.0.0",
+  "description": "Complete swear filter package which support most languages and more than 1000 words",
+  "main": "filter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "swear",
+    "filter",
+    "swearify",
+    "swear-filter",
+    "swear-filter-js",
+    "bad-words",
+    "bad-word",
+    "bad-word-filter",
+    "bad-word-filter-js",
+    "bad-word-filter-node",
+    "bad-word-filter-node-js"
+  ],
+  "author": {
+    "name": "Behiwzad",
+    "email": "behiwzad@gmail.com",
+    "url": "https://behiwzad.ir"
+  },
+  "license": "ISC"
+}
