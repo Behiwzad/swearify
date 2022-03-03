@@ -1,6 +1,6 @@
 ## Swearify
 
-Complete swear filter package which support most languages and more than **1000 words** .
+Complete swear filter package which support most languages and more than **10000 words** .
 
 ## Requirements
 
@@ -13,27 +13,37 @@ As of version 2, requires you either have an environment that understands ES2016
 ## Usage
 
 ```js
-const filter= require('swearify');
+const filter = require('swearify');
 
-console.log(filter.findAndFilter(
-'Lorem ipsum dolor fUck amet, consectetur xxx elit, sed do жопа tempor incididunt fuck ut sex et dolore magna aliqua, lorem دیوس dolor sit amet, consectetur بیناموس elit, sed do eiusmod tempor incididunt ut b*tch et dolore ковровщик aliqua 🖕', // your sentence to filter
-'▩', // placeholder
-['en',  'fa',  'ru'], // filter in which languages
-['sex'], // allowed swears
-[], // add your own words
-))
+const result = filter.findAndFilter (
+'Lorem ipsum dolor fUck amet, consectetur xxx elit, sed do жопа tempor incididunt fuck ut sex et 
+dolore magna aliqua, lorem دیوس dolor sit amet, consectetur بیناموس elit, sed do eiusmod tempor incididunt
+ut b*tch et dolore ковровщик aliqua 🖕',                   // your sentence to filter
+'▩',                                                      // placeholder
+['en',  'fa',  'ru'],                                     // filter in which languages
+['sex'],                                                  // allowed swears
+[],                                                       // add your own words
+);
+
+console.log(result);
 ```
 
 ## Output
 
 {
-**found:** true,
+
+**found**: true,
+
 **selected_languages:** [ 'en', 'fa', 'ru' ],
+
 **bad_words:** [ 'ковровщик', 'بیناموس', 'b*tch', 'fuck', 'دیوس', 'жопа', 'sex', 'xxx', 'xx', '🖕'],
+
 **filtered_sentense:**
 'Lorem ipsum dolor ▩▩▩▩ amet, consectetur ▩▩▩ elit, sed do ▩▩▩▩ tempor incididunt ▩▩▩▩ ut <ins>sex</ins> et dolore
 magna aliqua, lorem ▩▩▩▩ dolor sit amet, consectetur ▩▩▩▩▩▩▩ elit, sed do eiusmod tempor incididunt ut b\*▩▩▩▩▩ et dolore ▩▩▩▩▩▩▩▩▩ aliqua ▩▩',
+
 **allowed_words:** [ 'sex' ]
+
 }
 
 ## Supported Languages
@@ -70,7 +80,7 @@ magna aliqua, lorem ▩▩▩▩ dolor sit amet, consectetur ▩▩▩▩▩▩�
 | Lithuanian | lt   | <img height="40" width="50" src="https://flagicons.lipis.dev/flags/4x3/lt.svg" />     | 130          |
 | Latvian    | lv   | <img height="40" width="50" src="https://flagicons.lipis.dev/flags/4x3/lv.svg" />     | 136          |
 | Macedonian | mk   | <img height="40" width="50" src="https://flagicons.lipis.dev/flags/4x3/mk.svg" />     | 130          |
-| Malayalam  | ml   | <img height="40" width="50" src="https://flagicons.lipis.dev/flags/4x3/in.svg" />    | 134          |
+| Malayalam  | ml   | <img height="40" width="50" src="https://flagicons.lipis.dev/flags/4x3/in.svg" />     | 134          |
 | Mongolian  | mn   | <img height="40" width="50" src="https://flagicons.lipis.dev/flags/4x3/mn.svg" />     | 140          |
 | Marathi    | mr   | <img height="40" width="50" src="https://flagicons.lipis.dev/flags/4x3/in.svg" />     | 136          |
 | Malay      | ms   | <img height="40" width="50" src="https://flagicons.lipis.dev/flags/4x3/bn.svg" />     | 137          |

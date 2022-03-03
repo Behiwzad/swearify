@@ -1,7 +1,8 @@
 {
   "name": "swearify",
-  "version": "1.0.0",
-  "description": "Complete swear filter package which support most languages and more than 1000 words",
+  "version": "1.0.2",
+  "description": "Complete swear filter package which support most languages and more than 10000 words",
+  "repository": "https://github.com/Behiwzad/swearify",
   "main": "filter.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
