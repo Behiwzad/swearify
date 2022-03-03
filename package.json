@@ -1,13 +1,8 @@
 {
   "name": "swearify",
-<<<<<<< HEAD
   "version": "1.0.2",
   "description": "Complete swear filter package which support most languages and more than 10000 words",
   "repository": "https://github.com/Behiwzad/swearify",
-=======
-  "version": "1.0.0",
-  "description": "Complete swear filter package which support most languages and more than 10000 words",
->>>>>>> 32c17e9bfacf5087a5c927ae46f3818c69806336
   "main": "filter.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -30,5 +25,5 @@
     "email": "behiwzad@gmail.com",
     "url": "https://behiwzad.ir"
   },
-  "license": "ISC"
+  "license": "MIT"
 }
