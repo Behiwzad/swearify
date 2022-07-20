@@ -2,9 +2,6 @@
 
 Complete swear filter package which support most languages and more than **10000 words** .
 
-## Requirements
-
-As of version 2, requires you either have an environment that understands ES2016 and beyond or a transpiler like Babel.
 
 ## Installation
 
